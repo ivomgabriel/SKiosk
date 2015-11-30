@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:fontpath="http://schemas.android.com/apk/res/com.swordhealth.skiosk"
+    android:layout_height="match_parent">
+     
+    <com.swordhealth.skiosk.custom.CustomFontTextView
+        android:id="@+id/start"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/button_sword"
+        android:gravity="center"
+        android:text="START"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        fontpath:customFont="fonts/ROBOTOREGULAR.ttf" />
+
+    <LinearLayout
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:gravity="left"
+        android:orientation="vertical" >
+
+        <com.swordhealth.skiosk.custom.CustomFontTextView
+            android:id="@+id/clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20:45"
+            android:textColor="@android:color/black"
+            android:textSize="140dp"
+            fontpath:customFont="fonts/ROBOTOREGULAR.ttf" />
+
+        <com.swordhealth.skiosk.custom.CustomFontTextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="20,Novemeber 2015"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            fontpath:customFont="fonts/ROBOTOREGULAR.ttf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/settings"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="46dp"
+            android:src="@drawable/gear39" />
+    </LinearLayout>
+
+    <com.swordhealth.skiosk.custom.CustomFontTextView
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="22dp"
+        android:text="HELP"
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
+        fontpath:customFont="fonts/ROBOTOREGULAR.ttf" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:gravity="bottom|left"
+        android:orientation="vertical" >
+
+        <!-- Wifi -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center|left"
+            android:orientation="horizontal" >
+
+            <!-- Icon -->
+
+            <ImageView
+                android:id="@+id/wifi"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/wifi_off" />
+
+            <!-- Text -->
+
+            <com.swordhealth.skiosk.custom.CustomFontTextView
+                android:id="@+id/wifitext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                fontpath:customFont="fonts/ROBOTOREGULAR.ttf" />
+        </LinearLayout>
+
+        <!-- Sound -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center|left"
+            android:orientation="horizontal" >
+
+            <!-- Icon -->
+
+            <ImageView
+                android:id="@+id/volume"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/volume_full" />
+
+            <!-- Text -->
+
+            <com.swordhealth.skiosk.custom.CustomFontTextView
+                android:id="@+id/volumetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="32"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                fontpath:customFont="fonts/ROBOTOREGULAR.ttf" />
+        </LinearLayout>
+        
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center|left"
+            android:orientation="horizontal" >
+
+            <!-- Icon -->
+
+            <ImageView
+                android:id="@+id/brightness"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/brightness" />
+
+            <!-- Text -->
+
+            <com.swordhealth.skiosk.custom.CustomFontTextView
+                android:id="@+id/brightnesstext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Auto"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                fontpath:customFont="fonts/ROBOTOREGULAR.ttf" />
+        </LinearLayout>
+        
+         <!-- Bluetooth -->
+         
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center|left"
+            android:orientation="horizontal" >
+
+            <!-- Icon -->
+
+            <ImageView
+                android:id="@+id/bluetooth"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/ble_on" />
+
+            <!-- Text -->
+
+            <com.swordhealth.skiosk.custom.CustomFontTextView
+                android:id="@+id/bluetoothtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ON"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                fontpath:customFont="fonts/ROBOTOREGULAR.ttf" />
+        </LinearLayout>
+        
+         <!-- Battery -->
+         
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center|left"
+            android:orientation="horizontal" >
+
+            <!-- Icon -->
+
+            <ImageView
+                android:id="@+id/battery"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/battery_20" />
+
+            <!-- Text -->
+
+            <com.swordhealth.skiosk.custom.CustomFontTextView
+                android:id="@+id/batterytext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="32%"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                fontpath:customFont="fonts/ROBOTOREGULAR.ttf" />
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+    
+    
+
+</RelativeLayout>

@@ -1,0 +1,164 @@
+<resources>
+
+    <!-- New colors 13.02.2015 -->
+
+
+    <!-- Sword -->
+    <color name="sword">#FA4F53</color>
+    <color name="sword1">#F05B5D</color>
+    <color name="sword2">#1AFF585A</color>
+    <color name="sword3">#FA4F53</color>
+    <color name="sword4">#FDD8D8</color>
+    <color name="sword5">#E31230</color>
+    <color name="sword3_10transp">#1AFA4F53</color>
+    <color name="sword10transp">#1AFF585A</color>
+    <color name="sword30transp">#4DFF585A</color>
+    <color name="sword70transp">#B3FF585A</color>
+    <color name="sword90transp">#E6FF585A</color>
+
+    <!-- Grey -->
+
+    <color name="sgrey2">#FAFAFA</color>
+    <color name="sgrey2_30">#4DFAFAFA</color>
+    <color name="sgrey3">#F9F9F9</color>
+    <color name="sgrey4">#f4f4f4</color>
+    <color name="sgrey4_90">#E6f4f4f4</color>
+    <color name="sgrey3_80">#CCF9F9F9</color>
+    <color name="sgrey5">#F9F9F9</color>
+    <color name="sgrey8">#EBEBEB</color>
+    <color name="sgrey10">#E6E6E6</color>
+    <color name="sgrey20">#CBCBCB</color>
+    <color name="sgrey70">#4C4C4C</color>
+    <color name="sgrey70_90">#E64C4C4C</color>
+    <color name="sgrey40">#989898</color>
+    <color name="sgrey6">#FDC788</color>
+
+    <!-- Messages Popups -->
+    <color name="message_popup_red">#F05B5D</color>
+    <color name="message_popup_green">#2FCC71</color>
+    <color name="message_popup_yellow">#F4B948</color>
+
+    <!-- Black -->
+
+
+    <!-- Green -->
+
+    <color name="sgreen2">#95E6C2</color>
+    <color name="sgreen3">#2dcb71</color>
+    <color name="sgreen">#4FD69A</color>
+
+    <!-- Red -->
+    <color name="sred1">#F44336</color>
+    <color name="sred2">#fff9f9</color>
+    <!-- Blue -->
+    <color name="sblue">#3E80C7</color>
+    <color name="sblue_80">#CC3E80C7</color>
+    <color name="sblue2">#83A5C9</color>
+    <color name="sblue3">#82a4c8</color>
+    <color name="sblue4">#7094ba</color>
+    <color name="sblue5">#e2e7ef</color>
+    <color name="sblue6">#98b5d1</color>
+
+    <!-- Yellow -->
+    <color name="syellow1">#FFC763</color>
+    <!-- orange -->
+    <color name="sorange">#FFC763</color>
+    <color name="sorange2">#FFD7A3</color>
+
+    <!-- White -->
+    <color name="swhite_90">#E6FFFFFF</color>
+
+    <!-- popup_background_color -->
+
+    <color name="popup_background_color">#1A323232</color>
+    <color name="popup_background_color_40">#66323232</color>
+    <color name="popup_background_color_60">#99323232</color>
+
+    <!-- New Colors 13.02.2015 -->
+
+
+    <!-- Original Sword Colors -->
+
+    <color name="s_green">#4FD69A</color>
+    <color name="s_gray2">#E6E6E6</color>
+    <color name="s_gray6">#808080</color>
+    <color name="black">#000000</color>
+    <color name="cinzento">#666666</color>
+    <color name="cinzento_claro">#b3b3b3</color>
+    <color name="gray2">#D9D9D9</color>
+    <color name="gray1">#f2f2f2</color>
+    <color name="gray1_transp_80">#E6f2f2f2</color>
+    <color name="gray3">#BFBFBF</color>
+    <color name="green">#8ED43F</color>
+    <color name="gray4">#CCCCCC</color>
+    <color name="gray5">#999999</color>
+    <color name="gray6">#E6E6E6</color>
+    <color name="white">#ffffff</color>
+    <color name="orange">#FF6F06</color>
+    <color name="yellow">#FFFF08</color>
+    <color name="lightblue">#189AFB</color>
+    <color name="red">#FF585A</color>
+    <color name="cinza_nb">#4D4D4D</color>
+    <color name="cinza_nb_transparente">#E64D4D4D</color>
+    <color name="cinza_pb_transparente">#E6E6E6E6</color>
+    <color name="cinza_transparente">#E6808080</color>
+    <color name="cinza_pb">#E6E6E6</color>
+    <color name="stategreen">#39b54a</color>
+    <color name="newred">#F35D51</color>
+    <color name="progress_gray">#FFD8D8D8</color>
+    <color name="progress_gray_dark">#FF383838</color>
+    <color name="default_screen_bg">#f9f9f9</color>
+    <color name="rounded_container_bg">#222222</color>
+    <color name="rounded_container_border">#3b3f44</color>
+    <color name="light_gray_header_color">#646663</color>
+    <color name="statecomplete">#4FD69A</color>
+    <color name="stateincomplete">#F16C20</color>
+    <color name="stateundone">#1395BA</color>
+    <color name="feeback05">#fcee21</color>
+    <color name="feeback0">#804FD69A</color>
+    <color name="feeback1">#f3e03e</color>
+    <color name="feeback2">#edc93a</color>
+    <color name="feeback3">#e5ae35</color>
+    <color name="feeback4">#df9b32</color>
+    <color name="feeback5">#d9802e</color>
+    <color name="feeback6">#d46829</color>
+    <color name="feeback7">#d1562a</color>
+    <color name="feeback8">#cf4a2a</color>
+    <color name="feeback9">#ce3829</color>
+    <color name="feeback10">#cc2528</color>
+
+    <!-- New SWORD Colors -->
+
+    <color name="sgrey50">#323232</color>
+    <color name="swhite_80">#CCF9F9F9</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="sgreen_10">#1A4FD69A</color>
+    <color name="sgreen_20">#334FD69A</color>
+    <color name="sgreen_30">#4D4FD69A</color>
+    <color name="sgreen_40">#664FD69A</color>
+    <color name="sgreen_50">#804FD69A</color>
+    <color name="sgreen_60">#994FD69A</color>
+    <color name="sgreen_70">#B34FD69A</color>
+    <color name="sgreen_80">#CC4FD69A</color>
+    <color name="sgreen_90">#E64FD69A</color>
+
+    <!-- Pain Scale -->
+    <color name="spainscale1">#ffd2a5 </color>
+    <color name="spainscale2">#ffc681 </color>
+    <color name="spainscale3">#ffab6f </color>
+    <color name="spainscale4">#ff905f </color>
+    <color name="spainscale5">#ff835e </color>
+    <color name="spainscale6">#ff785e </color>
+    <color name="spainscale7">#fe695f </color>
+    <color name="spainscale8">#fa504c </color>
+    <color name="spainscale9">#fe352f </color>
+    <color name="spainscale10">#ed0700 </color>
+
+    <!-- Compliance Scale -->
+    <color name="scaleCompliance_A">#27AE60</color>
+    <color name="scaleCompliance_B">#2ECC71</color>
+    <color name="scaleCompliance_C">#F2A40F</color>
+    <color name="scaleCompliance_D">#E56F09</color>
+    <color name="scaleCompliance_E">#FF585A</color>
+
+</resources>

@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.swordhealth.skiosk.SLauncher" >
+    
+    
+    <RelativeLayout 
+        android:id="@+id/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/content_modal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+    </RelativeLayout>
+
+   
+
+</RelativeLayout>
